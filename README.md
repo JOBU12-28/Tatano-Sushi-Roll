@@ -1,2 +1,0 @@
-# Tatano-Sushi-Roll
-Sushi
