@@ -1,0 +1,66 @@
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+.seccion-logo{
+background-color:black;
+padding:30px;
+}
+
+.logo{
+width:220px;
+border-radius:50%;
+}
+
+.seccion-botones{
+min-height:100vh;
+background-image:url("Imagenes/Fondo.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* Botones */
+
+.botones{
+display:flex;
+gap:25px;
+}
+
+.boton{
+padding:15px 30px;
+background-color:white;
+color:black;
+text-decoration:none;
+border:2px solid black;
+border-radius:10px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.boton:hover{
+border-color:gray;
+}
+
+@media (max-width:768px){
+
+.botones{
+flex-direction:column;
+align-items:center;
+}
+
+.boton{
+width:200px;
+}
+
+.logo{
+width:180px;
+}
+
+}
